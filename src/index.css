@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -40,19 +41,12 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -101,6 +95,71 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .portfolio-section {
+    @apply flex items-end justify-start p-4 md:p-6 lg:p-8 relative overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+  }
+
+  .portfolio-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(41, 41, 41, 0.7);
+    transition: background 0.3s ease;
+  }
+
+  .portfolio-section:hover::before {
+    background: rgba(41, 41, 41, 0.5);
+  }
+
+  .portfolio-section-content {
+    position: relative;
+    z-index: 10;
+    color: rgb(239, 242, 239);
+  }
+
+  .portfolio-section h2 {
+    @apply font-heading text-3xl md:text-4xl lg:text-5xl mb-2 md:mb-4;
+    margin-top: 21.9px;
+    margin-bottom: 17.52px;
+  }
+
+  .portfolio-section p {
+    @apply font-body text-sm md:text-base lg:text-lg font-thin;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: 19.5px;
+    margin-bottom: 19.5px;
+    padding-left: 11.25px;
+    padding-right: 11.25px;
+  }
+
+  @media (max-width: 768px) {
+    .portfolio-section {
+      min-height: 250px;
+    }
+
+    .portfolio-section h2 {
+      font-size: 2rem;
+      line-height: 2.2rem;
+    }
+
+    .portfolio-section p {
+      font-size: 0.875rem;
+      line-height: 1.4;
+      letter-spacing: 1px;
+    }
   }
 }

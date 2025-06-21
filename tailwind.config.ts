@@ -62,6 +62,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Portfolio-specific colors
+        portfolio: {
+          background: "rgb(252, 245, 199)",
+          text: "rgb(239, 242, 239)",
+          overlay: "rgba(41, 41, 41, 0.9)",
+        },
+      },
+      fontFamily: {
+        heading: ['"Josefin Slab"', "serif"],
+        body: ["Raleway", "sans-serif"],
+      },
+      fontSize: {
+        heading: ["60px", { lineHeight: "66px" }],
+        body: ["19.5px", { lineHeight: "29.25px", letterSpacing: "2px" }],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -70,25 +84,44 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        glitch: {
+          "0%": {
+            transform: "translate(0)",
+            filter: "hue-rotate(0deg)",
           },
-          to: {
-            height: "0",
+          "20%": {
+            transform: "translate(-2px, 2px)",
+            filter: "hue-rotate(90deg)",
+          },
+          "40%": {
+            transform: "translate(-2px, -2px)",
+            filter: "hue-rotate(180deg)",
+          },
+          "60%": {
+            transform: "translate(2px, 2px)",
+            filter: "hue-rotate(270deg)",
+          },
+          "80%": {
+            transform: "translate(2px, -2px)",
+            filter: "hue-rotate(360deg)",
+          },
+          "100%": {
+            transform: "translate(0)",
+            filter: "hue-rotate(0deg)",
           },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        glitch: "glitch 2s infinite",
       },
     },
   },
