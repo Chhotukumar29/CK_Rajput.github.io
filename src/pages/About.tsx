@@ -63,7 +63,7 @@ const About = () => {
 
         {/* About Content */}
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div>
+          <div className="order-2 md:order-1">
             <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-6">
               About Me
             </h2>
@@ -92,7 +92,16 @@ const About = () => {
             </div>
           </div>
 
-          <div>
+          <div className="order-1 md:order-2">
+            {/* Personal Image */}
+            <div className="mb-8">
+              <img
+                src="https://cdn.builder.io/api/v1/assets/cb7f391faa164c0ab05ca65cda38738b/about-me-d6eb11?format=webp&width=800"
+                alt="CK Rajput - AIML Engineer"
+                className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+              />
+            </div>
+
             <h2 className="font-heading text-3xl md:text-4xl text-gray-800 mb-6">
               Current Role
             </h2>

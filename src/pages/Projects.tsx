@@ -18,7 +18,7 @@ const Projects = () => {
       description:
         "Innovated and devised a LangChain Q&A Chatbot using Streamlit, OpenAI GPT-3.5-turbo, RAG, enhancing user interaction and information retrieval with advanced NLP techniques.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-bea56c6a0e29?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
       category: "AI/ML",
     },
     {
@@ -28,7 +28,7 @@ const Projects = () => {
       description:
         "Overhauled a finance app using Python, FastAPI, and React.js to enhancing user experience, streamline data entry and boosting performance by 30% through form and backend optimization.",
       image:
-        "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
       category: "Full Stack",
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       description:
         "Boosted real-time headcount object detection using Python, FastAPI, and YOLO, integrated with CCTV through RTSP for seamless object detection and real-time analytics deployed with Docker.",
       image:
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=600&h=400&fit=crop",
       category: "Computer Vision",
     },
     {
@@ -48,7 +48,7 @@ const Projects = () => {
       description:
         "Engineered an AI-powered Face Verification System for NIA, ensuring compliance with Indian data protection laws, real-time face recognition, suspect tracking, and integration with law enforcement databases.",
       image:
-        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=face",
       category: "Computer Vision",
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
       description:
         "Optimized AutoQuery Pro is an AI-powered, multi-agent tool enabling non-technical users to query SQL/NoSQL databases using NLP, manufactured with AI Agents, LangChain, LLMs, and FastAPI.",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1639322537228-f710d846310a?w=600&h=400&fit=crop",
       category: "AI/ML",
     },
     {
@@ -68,7 +68,7 @@ const Projects = () => {
       description:
         "Developed and executed a machine learning model to predict water quality and potability, leveraging EC, TOC, THMs, Hardness, and Turbidity parameters, using SciKit-Learn for analysis and prediction.",
       image:
-        "https://images.unsplash.com/photo-1581922819941-6ab31c0ba81e?w=600&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=600&h=400&fit=crop",
       category: "Data Science",
     },
   ];

@@ -15,7 +15,7 @@ const Index = () => {
             className="portfolio-section lg:w-5/12 flex-1"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=face')",
+                "url('https://cdn.builder.io/api/v1/assets/cb7f391faa164c0ab05ca65cda38738b/about-me-d6eb11?format=webp&width=800')",
             }}
           >
             <div className="portfolio-section-content">
