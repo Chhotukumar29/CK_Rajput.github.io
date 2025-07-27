@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, MapPin, Phone, Mail, Linkedin, Github } from "lucide-react";
+import aboutMeImage from "../assets/about_me.jpg";
 
 const About = () => {
   return (
@@ -96,7 +97,7 @@ const About = () => {
             {/* Personal Image */}
             <div className="mb-8">
               <img
-                src="/src/assets/about_me.jpg"
+                src={aboutMeImage}
                 alt="CK Rajput - AIML Engineer"
                 className="w-full max-w-md mx-auto rounded-lg shadow-lg"
               />
