@@ -2,7 +2,7 @@
   "name": "fusion-starter",
   "private": true,
   "type": "module",
-  "homepage": "https://chhotukumar29.github.io/CK_Rajput/",
+  "homepage": "https://chhotukumar29.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
