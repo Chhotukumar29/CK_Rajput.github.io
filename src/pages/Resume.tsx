@@ -115,10 +115,15 @@ const Resume = () => {
             <ArrowLeft size={20} />
             Back to Portfolio
           </Link>
-          <button className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-colors">
+
+          <a
+            href="/CHHOTU_KUMAR_RAJPUT_8890502275.pdf"
+            download
+            className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-colors"
+          >
             <Download size={18} />
             Download PDF
-          </button>
+          </a>
         </div>
       </header>
 

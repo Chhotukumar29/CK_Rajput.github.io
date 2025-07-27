@@ -15,7 +15,7 @@ const Index = () => {
             className="portfolio-section lg:w-5/12 flex-1"
             style={{
               backgroundImage:
-                "url('https://cdn.builder.io/api/v1/assets/cb7f391faa164c0ab05ca65cda38738b/about-me-d6eb11?format=webp&width=800')",
+                "url('src/assets/Face_Image.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -37,7 +37,7 @@ const Index = () => {
             className="portfolio-section lg:w-7/12 flex-1"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop')",
+                "url('/src/assets/Project.jpg')",
             }}
           >
             <div className="portfolio-section-content">
@@ -60,7 +60,7 @@ const Index = () => {
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop')",
+                "url('/src/assets/Resume_pic.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -79,7 +79,7 @@ const Index = () => {
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=600&fit=crop')",
+                "url('/src/assets/contact.jpg')",
             }}
           >
             <div className="portfolio-section-content">

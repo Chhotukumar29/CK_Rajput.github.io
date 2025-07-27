@@ -96,7 +96,7 @@ const About = () => {
             {/* Personal Image */}
             <div className="mb-8">
               <img
-                src="https://cdn.builder.io/api/v1/assets/cb7f391faa164c0ab05ca65cda38738b/about-me-d6eb11?format=webp&width=800"
+                src="/src/assets/about me.jpg"
                 alt="CK Rajput - AIML Engineer"
                 className="w-full max-w-md mx-auto rounded-lg shadow-lg"
               />
