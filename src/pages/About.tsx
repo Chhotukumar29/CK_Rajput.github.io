@@ -96,7 +96,7 @@ const About = () => {
             {/* Personal Image */}
             <div className="mb-8">
               <img
-                src="/src/assets/about me.jpg"
+                src="/src/assets/about_me.jpg"
                 alt="CK Rajput - AIML Engineer"
                 className="w-full max-w-md mx-auto rounded-lg shadow-lg"
               />
