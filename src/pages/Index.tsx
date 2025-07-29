@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Face_Image, Project, Resume_pic, contact } from "@/assets";
 
 const Index = () => {
   return (
@@ -15,7 +14,7 @@ const Index = () => {
             to="/about"
             className="portfolio-section lg:w-5/12 flex-1"
             style={{
-              backgroundImage: `url(${Face_Image})`,
+              backgroundImage: "url('/assets/Face_Image.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -36,7 +35,7 @@ const Index = () => {
             to="/projects"
             className="portfolio-section lg:w-7/12 flex-1"
             style={{
-              backgroundImage: `url(${Project})`,
+              backgroundImage: "url('/assets/Project.jpg')",
             }}
           >
             <div className="portfolio-section-content">
@@ -58,7 +57,7 @@ const Index = () => {
             to="/resume"
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
-              backgroundImage: `url(${Resume_pic})`,
+              backgroundImage: "url('/assets/Resume_pic.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -76,7 +75,7 @@ const Index = () => {
             to="/contact"
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
-              backgroundImage: `url(${contact})`,
+              backgroundImage: "url('/assets/contact.jpg')",
             }}
           >
             <div className="portfolio-section-content">

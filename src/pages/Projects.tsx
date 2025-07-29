@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink, Github, Calendar } from "lucide-react";
-import { AI_1st, second, third, fourth, fifth, sixth } from "@/assets";
+// import { AI_1st, second, third, fourth, fifth, sixth } from "@/assets";
 
 const Projects = () => {
   const projects = [
@@ -18,7 +18,7 @@ const Projects = () => {
       ],
       description:
         "Innovated and devised a LangChain Q&A Chatbot using Streamlit, OpenAI GPT-3.5-turbo, RAG, enhancing user interaction and information retrieval with advanced NLP techniques.",
-      image: AI_1st,
+      image: "/assets/AI_1st.jpg",
       category: "AI/ML",
     },
     {
@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: ["Python", "FastAPI", "React.js", "Git", "Linux"],
       description:
         "Overhauled a finance app using Python, FastAPI, and React.js to enhancing user experience, streamline data entry and boosting performance by 30% through form and backend optimization.",
-      image: second,
+      image: "/assets/2nd.jpeg",
       category: "Full Stack",
     },
     {
@@ -36,7 +36,7 @@ const Projects = () => {
       technologies: ["Python", "FastAPI", "YOLO", "Docker", "RTSP"],
       description:
         "Boosted real-time headcount object detection using Python, FastAPI, and YOLO, integrated with CCTV through RTSP for seamless object detection and real-time analytics deployed with Docker.",
-      image: third,
+      image: "/assets/3rd.jpg",
       category: "Computer Vision",
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       technologies: ["Python", "Computer Vision", "Face Recognition", "AWS"],
       description:
         "Engineered an AI-powered Face Verification System for NIA, ensuring compliance with Indian data protection laws, real-time face recognition, suspect tracking, and integration with law enforcement databases.",
-      image: fourth,
+      image: "/assets/4th.png",
       category: "Computer Vision",
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
       technologies: ["AI Agents", "LangChain", "LLMs", "FastAPI", "NLP"],
       description:
         "Optimized AutoQuery Pro is an AI-powered, multi-agent tool enabling non-technical users to query SQL/NoSQL databases using NLP, manufactured with AI Agents, LangChain, LLMs, and FastAPI.",
-      image: fifth,
+      image: "/assets/5th.png",
       category: "AI/ML",
     },
     {
@@ -63,7 +63,7 @@ const Projects = () => {
       technologies: ["Python", "SciKit-Learn", "AWS EC2", "Machine Learning"],
       description:
         "Developed and executed a machine learning model to predict water quality and potability, leveraging EC, TOC, THMs, Hardness, and Turbidity parameters, using SciKit-Learn for analysis and prediction.",
-      image: sixth,
+      image: "/assets/6th.jpeg",
       category: "Data Science",
     },
   ];
