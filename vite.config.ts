@@ -4,7 +4,7 @@ import path from 'path';
 import { writeFileSync } from 'fs';
 
 export default defineConfig({
-  base: '/CK_Rajput_Portfolio/',
+  base: '/',
   plugins: [
     react(),
     {

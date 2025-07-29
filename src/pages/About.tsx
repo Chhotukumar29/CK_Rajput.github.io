@@ -47,14 +47,18 @@ const About = () => {
           {/* Social Links */}
           <div className="flex justify-center gap-4 mt-6">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/ck-rajput-004190197/"
               className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Linkedin size={24} />
             </a>
             <a
-              href="#"
+              href="https://github.com/Chhotukumar29"
               className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <Github size={24} />
             </a>
