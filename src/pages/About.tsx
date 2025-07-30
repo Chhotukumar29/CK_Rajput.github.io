@@ -50,15 +50,15 @@ const About = () => {
               href="https://www.linkedin.com/in/ck-rajput-004190197/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ display: "inline-block", padding: 4 }}
+              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
             >
               <LinkedinIcon size={24} />
             </a>
             <a
               href="https://github.com/Chhotukumar29"
-              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
+              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
             >
               <GithubIcon size={24} />
             </a>
