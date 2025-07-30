@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, MapPin, Phone, Mail, LinkedinIcon, GithubIcon } from "lucide-react";
+import {
+  ArrowLeft,
+  MapPin,
+  Phone,
+  Mail,
+  LinkedinIcon,
+  GithubIcon,
+} from "lucide-react";
 
 const About = () => {
   return (
