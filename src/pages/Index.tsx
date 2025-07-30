@@ -14,7 +14,7 @@ const Index = () => {
             to="/about"
             className="portfolio-section lg:w-5/12 flex-1"
             style={{
-              backgroundImage: "url('/assets/Face_Image.png')",
+              backgroundImage: "url('https://raw.githubusercontent.com/Chhotukumar29/CK_Rajput.github.io/refs/heads/main/assets/Face_Image.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -35,7 +35,7 @@ const Index = () => {
             to="/projects"
             className="portfolio-section lg:w-7/12 flex-1"
             style={{
-              backgroundImage: "url('/assets/Project.jpg')",
+              backgroundImage: "url('https://raw.githubusercontent.com/Chhotukumar29/CK_Rajput.github.io/refs/heads/main/assets/Project.jpg')",
             }}
           >
             <div className="portfolio-section-content">
@@ -57,7 +57,7 @@ const Index = () => {
             to="/resume"
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
-              backgroundImage: "url('/assets/Resume_pic.png')",
+              backgroundImage: "url('https://raw.githubusercontent.com/Chhotukumar29/CK_Rajput.github.io/refs/heads/main/assets/Resume_pic.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -75,7 +75,7 @@ const Index = () => {
             to="/contact"
             className="portfolio-section lg:w-1/2 flex-1"
             style={{
-              backgroundImage: "url('/assets/contact.jpg')",
+              backgroundImage: "url('https://raw.githubusercontent.com/Chhotukumar29/CK_Rajput.github.io/refs/heads/main/assets/contact.jpg')",
             }}
           >
             <div className="portfolio-section-content">
