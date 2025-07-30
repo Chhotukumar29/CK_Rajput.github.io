@@ -1,5 +1,12 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft, MapPin, Phone, Mail, LinkedinIcon, GithubIcon } from "lucide-react";
+import {
+  ArrowLeft,
+  MapPin,
+  Phone,
+  Mail,
+  LinkedinIcon,
+  GithubIcon,
+} from "lucide-react";
 
 const About = () => {
   return (
@@ -50,15 +57,15 @@ const About = () => {
               href="https://www.linkedin.com/in/ck-rajput-004190197/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ display: "inline-block", padding: 4 }}
+              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
             >
               <LinkedinIcon size={24} />
             </a>
             <a
               href="https://github.com/Chhotukumar29"
-              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
+              className="p-2 text-gray-600 hover:text-gray-800 transition-colors"
             >
               <GithubIcon size={24} />
             </a>
@@ -100,7 +107,7 @@ const About = () => {
             {/* Personal Image */}
             <div className="mb-8">
               <img
-                src="/assets/about_me.jpg"
+                src="./assets/about_me.jpg"
                 alt="CK Rajput - AIML Engineer"
                 className="w-full max-w-md mx-auto rounded-lg shadow-lg"
               />

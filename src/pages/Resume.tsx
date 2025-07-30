@@ -140,8 +140,22 @@ const Resume = () => {
           <div className="flex flex-wrap justify-center gap-6 text-gray-600">
             <span>+91-8890502275</span>
             <span>Chhotuchiitodiya@gmail.com</span>
-            <span>LinkedIn</span>
-            <span>GitHub</span>
+            <a
+              href="https://www.linkedin.com/in/ck-rajput-004190197/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-800 transition-colors"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/Chhotukumar29"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-800 transition-colors"
+            >
+              GitHub
+            </a>
           </div>
         </div>
 
