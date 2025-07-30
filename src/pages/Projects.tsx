@@ -167,14 +167,24 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-3">
-                  <button className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-colors text-sm">
+                  <a
+                    href="https://github.com/Chhotukumar29"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-4 py-2 bg-gray-800 text-white rounded-md hover:bg-gray-900 transition-colors text-sm"
+                  >
                     <ExternalLink size={16} />
                     View Project
-                  </button>
-                  <button className="flex items-center gap-2 px-4 py-2 border border-gray-400 text-gray-700 rounded-md hover:bg-white/50 transition-colors text-sm">
+                  </a>
+                  <a
+                    href="https://github.com/Chhotukumar29"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-4 py-2 border border-gray-400 text-gray-700 rounded-md hover:bg-white/50 transition-colors text-sm"
+                  >
                     <Github size={16} />
                     Code
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
