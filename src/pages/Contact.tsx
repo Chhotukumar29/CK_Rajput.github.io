@@ -113,13 +113,17 @@ const Contact = () => {
               </h3>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/ck-rajput-004190197/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-900 rounded-full flex items-center justify-center transition-colors"
                 >
                   <Linkedin size={20} className="text-white" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/Chhotukumar29"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-900 rounded-full flex items-center justify-center transition-colors"
                 >
                   <Github size={20} className="text-white" />
