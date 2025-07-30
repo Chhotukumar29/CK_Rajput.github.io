@@ -14,7 +14,7 @@ const Index = () => {
             to="/about"
             className="portfolio-section lg:w-5/12 flex-1"
             style={{
-              backgroundImage: "url('/assets/Face_Image.png')",
+              backgroundImage: "url('./assets/Face_Image.png')",
             }}
           >
             <div className="portfolio-section-content">
@@ -93,4 +93,4 @@ const Index = () => {
   );
 };
 
-export default Index;  
+export default Index;
