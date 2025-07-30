@@ -100,7 +100,7 @@ const About = () => {
             {/* Personal Image */}
             <div className="mb-8">
               <img
-                src="https://raw.githubusercontent.com/Chhotukumar29/CK_Rajput.github.io/refs/heads/main/assets/about_me.jpg"
+                src="/public/assets/about_me.jpg"
                 alt="CK Rajput - AIML Engineer"
                 className="w-full max-w-md mx-auto rounded-lg shadow-lg"
               />
